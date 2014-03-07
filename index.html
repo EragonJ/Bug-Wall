@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bug Rankings</title>
+        <!-- css -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/css/index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bug Rankings</h1>
+            <div class="users"></div>
+        </div>
+
+        <!-- user template -->
+        <div class="user row hide">
+            <div class="left col-md-2">
+                <img class="avatar" src="">
+            </div>
+            <div class="right col-md-10">
+                <div class="issues"></div>
+            </div>
+        </div>
+
+        <!-- js -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="public/js/github_issue_parser.js"></script>
+        <script src="public/js/github_issue_renderer.js"></script>
+        <script src="public/js/ranking.js"></script>
+    </body>
+</html>

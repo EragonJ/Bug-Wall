@@ -1,0 +1,33 @@
+.container {
+
+}
+
+.users {
+    border: 1px solid #ccc;
+}
+
+.users > .user {
+    margin: 10px;
+}
+
+.users > .user > .left {
+    text-align: center;
+}
+
+.users > .user > .right {
+
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+}
+
+.issue {
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+h1 {
+    text-align: center;
+}
