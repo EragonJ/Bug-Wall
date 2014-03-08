@@ -18,6 +18,11 @@
 
 }
 
+.glyphicon {
+    margin: 0 10px;
+    vertical-align: top;
+}
+
 .avatar {
     width: 80px;
     height: 80px;
