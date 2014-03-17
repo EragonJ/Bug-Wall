@@ -34,7 +34,7 @@
 
       $.each(user, function(issueIndex, issue) {
         if (!userInfo) {
-          userInfo = issue.user; 
+          userInfo = issue.assignee;
         }
 
         // store issueHTML
